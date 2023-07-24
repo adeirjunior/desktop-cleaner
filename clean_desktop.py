@@ -26,6 +26,6 @@ def clean_desktop(path):
 
 if __name__ == "__main__":
     # Replace 'your_user' with your username
-    desktop_path = f"C:/Users/'your_user'/Desktop"
+    desktop_path = f"C:/Users/your_user/Desktop"
 
     clean_desktop(desktop_path)
