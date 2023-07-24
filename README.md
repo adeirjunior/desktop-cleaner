@@ -10,21 +10,33 @@ This Python script is designed to automatically clean your desktop by deleting a
 
 2. Save the Python script `clean_desktop.py` inside the `utils` folder.
 
-3. Open the command prompt (cmd) on your system.
+3. Open the Python script `clean_desktop.py` using a text editor of your choice.
 
-4. Navigate to the `utils` folder using the `cd` command. For example:
+4. Locate the line that looks like the following:
+   ```python
+   desktop_path = f"C:/Users/your_user/Desktop"
+   ```
+   
+5. Replace `'your_user'` with your actual username. For example, if your username is `john_doe`, the line should be changed to:
+   ```python
+   desktop_path = f"C:/Users/john_doe/Desktop"
+   ```
+
+6. Save the changes to the `clean_desktop.py` file.
+
+7. Open the command prompt (cmd) on your system.
+
+8. Navigate to the `utils` folder using the `cd` command. For example:
    ```
    cd C:\utils
    ```
 
-5. Run the script using the following command and provide your username as an argument:
+9. Run the script using the following command:
    ```
-   python clean_desktop.py your_username
+   python clean_desktop.py
    ```
-   
-   Replace `your_username` with your actual username. The script will use this username to construct the path to your desktop.
 
-6. The script will start cleaning your desktop by deleting all files and folders. Be cautious and ensure that you have backed up any important data before executing the script.
+10. The script will start cleaning your desktop by deleting all files and folders. Be cautious and ensure that you have backed up any important data before executing the script.
 
 ### Important Notes:
 
